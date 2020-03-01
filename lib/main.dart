@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:to_do/HomeScreen.dart';
+import 'package:to_do/Screens/TodoDetail.dart';
+
+import 'Screens/TodoList.dart';
 
 void main() => runApp(ToDo());
 
@@ -11,7 +13,7 @@ class ToDo extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: TodoList(),
     );
   }
 }
